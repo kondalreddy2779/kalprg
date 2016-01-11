@@ -1,0 +1,14 @@
+
+
+<suite name="My test Suite" >
+  <test name="End to end test">
+    <classes>
+      <class name="testsuiteExcution.loginTest"/>
+      <class name="testsuiteExcution.FindAFlight"/>
+      <class name="testsuiteExcution.SelectAFlight"/>
+      <class name="testsuiteExcution.BookTickect"/>
+      <class name="testsuiteExcution.Conformation"/>
+      
+    </classes>
+  </test> 
+</suite> 

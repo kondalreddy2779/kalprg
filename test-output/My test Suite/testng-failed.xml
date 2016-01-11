@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test Suite]">
+  <test name="End to end test(failed)">
+    <classes>
+      <class name="testsuiteExcution.loginTest">
+        <methods>
+          <include name="loginTest1"/>
+        </methods>
+      </class> <!-- testsuiteExcution.loginTest -->
+      <class name="testsuiteExcution.FindAFlight">
+        <methods>
+          <include name="findaflightTest"/>
+        </methods>
+      </class> <!-- testsuiteExcution.FindAFlight -->
+      <class name="testsuiteExcution.SelectAFlight">
+        <methods>
+          <include name="selectFlightTest"/>
+        </methods>
+      </class> <!-- testsuiteExcution.SelectAFlight -->
+      <class name="testsuiteExcution.Conformation">
+        <methods>
+          <include name="conformationTest"/>
+        </methods>
+      </class> <!-- testsuiteExcution.Conformation -->
+      <class name="testsuiteExcution.BookTickect">
+        <methods>
+          <include name="bookTicketTest"/>
+        </methods>
+      </class> <!-- testsuiteExcution.BookTickect -->
+    </classes>
+  </test> <!-- End to end test(failed) -->
+</suite> <!-- Failed suite [My test Suite] -->
